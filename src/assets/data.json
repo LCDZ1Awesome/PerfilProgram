@@ -1,0 +1,20 @@
+{
+    "descripcion": "Sonic es un erizo que corre muy rapido",
+    "educacion": "Pondria un texto aqui",
+    "tituloedu": "Educación",
+    "acerca": "Acerca de",
+    "icono": "assets/sonic.jpg",
+   
+    "datos": [
+        {
+            
+            "uno":"Argentina Programa primer curso",
+            "dos":"Argentina Programa segundo curso"
+        
+            }
+
+
+    ]
+
+
+}

@@ -1,0 +1,51 @@
+<div class="container" id="acercade">
+    <h2>
+{{buenas.acerca}}
+    </h2>
+  
+    <p id="parrafoacercade">    
+     {{buenas.  descripcion}}
+    </p>
+    <div  onclick="cambiar_parrafo()"> 
+   <button (click)="Editar()" id="editar"><i  class="fa-solid fa-pen-to-square"></i></button>
+     
+    </div>
+  </div>
+
+
+  <div class="container" id="educacion">
+    <button (click)="mostrar=!mostrar" id="mostrarmas" ><i class="fa-solid fa-angle-down"></i></button>
+    <h2>
+{{buenas.tituloedu}}
+    </h2>
+
+  
+    
+    <p id="parrafoacercade">    
+     {{buenas.  educacion}}
+    </p>
+
+  
+<div id="about"  *ngFor="let show of datos">
+  <div *ngIf="mostrar">
+<ul>
+  <li><b>{{show.uno}}</b></li>
+
+  <li><b>{{show.dos}}</b></li>
+ <p> <time>2021</time>-<time>2022</time></p>
+</ul>
+</div>
+
+</div>
+
+    <div  onclick="cambiar_parrafo()"> 
+
+   <button (click)="Editar()" id="editar"><i  class="fa-solid fa-pen-to-square"></i></button>
+  
+    </div>
+
+   
+  </div>
+
+
+
