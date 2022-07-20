@@ -1,0 +1,64 @@
+#habilidades {
+    margin-left:40px;
+    margin-top: 45px;
+  
+    box-sizing: border-box; width: 92%; 
+    margin-bottom: 40px;
+    border: solid 1px;
+    border-radius: 10px;
+
+    overflow: scroll;
+    flex-wrap: wrap;
+   
+ 
+ 
+}
+
+#habilidades1 {
+  
+  
+  
+    box-sizing: border-box; width: 92%; 
+    
+    border: solid 1px;
+    border-radius: 10px;
+
+    overflow: scroll;
+    flex-wrap: wrap;
+   
+ 
+ 
+}
+
+  
+.texto {
+    font-family: sans-serif;
+}
+
+
+.habiImagenes {
+    border-radius: 100px;
+  
+    
+    width: 170px;
+    padding-top: 55px;
+ 
+
+
+
+}
+
+
+#ingles {
+    border-radius: 100px;
+  
+    padding-top: 25px;
+    width: 190px;
+
+ }
+#titulo {
+    font-family: sans-serif;
+    align-items: center;
+ 
+
+}

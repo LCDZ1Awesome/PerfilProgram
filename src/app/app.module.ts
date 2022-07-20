@@ -7,12 +7,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AcerdadeComponent } from './acercade/acerdade/acerdade.component';
 import {HttpClientModule } from '@angular/common/http';
 import { ImagenComponent } from './imagen/imagen/imagen.component';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AcerdadeComponent,
-    ImagenComponent
+    ImagenComponent,
+    HabilidadesComponent
   ],
   imports: [
     BrowserModule,
