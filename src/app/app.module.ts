@@ -11,6 +11,7 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
 import { IniciosesionComponent } from './iniciosesion/iniciosesion.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { InicioComponent } from './inicio/inicio.component';
     HabilidadesComponent,
     ProyectoComponent,
     IniciosesionComponent,
-    InicioComponent
+    InicioComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

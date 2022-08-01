@@ -23,7 +23,7 @@
 
          #sesion {
 border-radius: 20px;
-width: 50px, 10px;
+
 height: 60px;
 border-color: black;
 border-style: solid;
@@ -54,6 +54,8 @@ margin-top: 30px;
 
 font-family: sans-serif;
 text-align: center;
+text-decoration: none;
+color: black;
 
 
    }
@@ -104,3 +106,4 @@ text-align: center;
 
   
 }
+
