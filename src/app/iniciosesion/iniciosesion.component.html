@@ -1,4 +1,4 @@
-<body id="fondo">
+ <body id="fondo">
 
 
 
@@ -7,23 +7,55 @@
 <br>
 <h1>Inicio de sesión</h1>
 
-<form method="post">
 
+
+<form [formGroup]="form">
+<span  >
 <div class="username">
-<input type="text" required>
+<input type="text" formControlName="nombre" 
+ >
 <label>Nombre de usuario</label>
 
-</div>
-<div class="username">
-<input type="text" required>
-<label>Contraseña</label>
+
+
+
+<div *ngIf="Nombre?.errors && Nombre?.touched">
+<p *ngIf="Nombre?.hasError('required')" class="text-danger" >
+    El nombre de usuario es requerido
+</p>
+<p *ngIf="Nombre?.hasError('nombre')" class="text-danger">
+    El formato del nombre de usuario debe ser valido
+</p>    
+</div> <!-- termina ngif -->
+
 
 </div>
+
+
+
+<div class="username">
+<input type="text" formControlName="password">
+<label>Contraseña</label>
+
+
+<div *ngIf="Contrasena?.errors && Contrasena?.touched">
+    <p *ngIf="Contrasena?.hasError('required')" class="text-danger" >
+       La contraseña es requerida
+    </p>
+    <p *ngIf="Contrasena?.hasError('minlength')" class="text-danger">
+        La contraseña debe tener al menos 5 caracteres
+    </p>    
+    </div> <!-- termina ngif contraseña -->
+
+
+
+</div>
+</span>
 
 <button type="submit" value="iniciar">Iniciar sesión</button>
 <div class="registrarse">
-<a href="#">Si no tienes una contraseña, registrate
-</a>
+<p >Si no tienes una contraseña, registrese
+</p>
 </div>
 
 

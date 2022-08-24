@@ -11,7 +11,11 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
 import { IniciosesionComponent } from './iniciosesion/iniciosesion.component';
 import { InicioComponent } from './inicio/inicio.component';
+
 import { FooterComponent } from './footer/footer.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +32,8 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    HttpClientModule 
+    HttpClientModule,
+    ReactiveFormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -50,13 +50,13 @@ height: 40px;
     font-size: 16px;
 border: none;
 background: none;
-outline: none; /* se va el recuadro al tocar */
+
 
 }
 
 .username label {
 position: absolute;
-top: 50%;
+top: -24%;
 left: 5px;
 color: rgb(184, 179, 179);
 transform: translateY(-50%);
